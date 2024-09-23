@@ -1,0 +1,47 @@
+.content-container{
+    height:80vh;
+   
+}
+.content-left{
+    border-radius: 10px;
+    margin: 20px;
+    width:50%;
+    background-image: url('../assets/main-banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.content-right{
+  
+    border-radius: 10px;
+    margin: 20px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 10px;
+    
+}
+.right-item1, .right-item2, .right-item3, .right-item4{
+    border-radius: 8px;
+    
+}
+.right-item1{
+    background-image: url(../assets/catbanner-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.right-item2{
+    background-image: url(../assets/catbanner-02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.right-item3 {
+    background-image: url(../assets/catbanner-03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.right-item4 {
+    background-image: url(../assets/catbanner-04.jpg);
+    background-size: cover;
+    background-position: center;
+}

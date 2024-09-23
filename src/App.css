@@ -1,0 +1,16 @@
+.py-4{
+    background-color: #162232;
+}
+
+a{
+    text-decoration: none !important;
+}
+.product-container{
+    height: auto;
+    background-color: azure;
+    margin: 40px 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+}
